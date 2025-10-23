@@ -22,6 +22,7 @@ public class TaskController {
     public ResponseEntity<String> home() {
         return ResponseEntity.ok("Task API Demo");
     }
+    
 
     // 🔹 GET all tasks
     @GetMapping("/all")
